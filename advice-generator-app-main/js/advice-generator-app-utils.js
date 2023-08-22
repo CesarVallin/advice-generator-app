@@ -5,7 +5,7 @@ export const testFromUtils = async () => {
     console.log(`test from utils`);
 };
 
-/** Getter function */
+/** `Getter function...` */
 export const getAdviceObject = async () => {
     const url = `https://api.adviceslip.com/advice`;
     const optionsAdviceObject = {
@@ -24,4 +24,7 @@ export const getAdviceObject = async () => {
 
 
 }
+
+/** Need: Render function ...*/
+
 

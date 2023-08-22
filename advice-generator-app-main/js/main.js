@@ -9,5 +9,8 @@ import {testFromUtils, getAdviceObject} from './advice-generator-app-utils.js'
     const adviceObject = await getAdviceObject();
     console.log(adviceObject);
 
+
+
+
 }) ();
 
