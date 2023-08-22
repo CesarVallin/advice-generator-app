@@ -8,7 +8,8 @@ import {testFromUtils, getAdviceObject} from './advice-generator-app-utils.js'
 
     const adviceObject = await getAdviceObject();
     console.log(adviceObject);
-
+    console.log(adviceObject.slip.advice);
+    console.log(adviceObject.slip.id);
 
 
 
