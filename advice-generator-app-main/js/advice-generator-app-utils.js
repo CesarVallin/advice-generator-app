@@ -26,5 +26,8 @@ export const getAdviceObject = async () => {
 }
 
 /** Need: Render function ...*/
+export const renderAdviceObject = async () => {
+    const dynamicAdvice = document.querySelector('#adviceObject');
 
+}
 
