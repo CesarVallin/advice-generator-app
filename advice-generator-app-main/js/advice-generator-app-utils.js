@@ -25,6 +25,12 @@ export class ApiInteraction {
             console.log(error);
         }
     }
+    static getAdviceObjectId(object) {
+        return object.slip.id;
+    }
+    static getAdviceObjectAdvice(object) {
+        return object.slip.advice;
+    }
 }
 
 /** Need: Render function ...*/

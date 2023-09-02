@@ -9,8 +9,13 @@ import {Setup, ApiInteraction} from './advice-generator-app-utils.js'
 
     const adviceObject = await ApiInteraction.getAdviceObject();
     console.log(adviceObject);
-    console.log(adviceObject.slip.advice);
-    console.log(adviceObject.slip.id);
+
+    const adviceObjectAdvice = ApiInteraction.getAdviceObjectAdvice(adviceObject);
+    console.log(adviceObjectAdvice);
+
+    const adviceObjectId = ApiInteraction.getAdviceObjectId(adviceObject);
+    console.log(adviceObjectId);
+
 
 }) ();
 
