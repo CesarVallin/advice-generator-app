@@ -1,17 +1,16 @@
 "use strict";
 console.log(`hello from main.js`);
 
-import {testFromUtils, getAdviceObject} from './advice-generator-app-utils.js'
+import {Setup, ApiInteraction} from './advice-generator-app-utils.js'
 
 (async () => {
-    testFromUtils();
+    const testMessage = Setup.testFromUtil();
+    console.log(testMessage);
 
-    const adviceObject = await getAdviceObject();
+    const adviceObject = await ApiInteraction.getAdviceObject();
     console.log(adviceObject);
     console.log(adviceObject.slip.advice);
     console.log(adviceObject.slip.id);
-
-
 
 }) ();
 
