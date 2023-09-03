@@ -8,6 +8,7 @@ export class Setup {
 }
 
 /** Get advice object */
+/** methods with static keyword... class does not need to be instantiated when utilizing static methods.  */
 export class ApiInteraction {
     static async getAdviceObject() {
         const url = `https://api.adviceslip.com/advice`;
